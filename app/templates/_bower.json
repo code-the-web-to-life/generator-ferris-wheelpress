@@ -1,0 +1,10 @@
+{
+    "name": "<%= themeName %>",
+    "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/code-the-web-to-life"
+    },
+    "dependencies": {
+    }
+}
