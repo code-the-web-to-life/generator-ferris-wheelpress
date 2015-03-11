@@ -16,6 +16,7 @@ Install option for third party themes by simply entering it's URL, and a Grunt t
 
 ##This generator should already do the following and more in the future:
 
+* Downloads a random set of salt keys and adds them to the wp-config.php file for you.
 * Setup Grunt (Copy package.json and Gruntfile.js to root folder)
 * Download and unzip latest WordPress version into root.
 * Download and install a third party theme if specified and rename it.

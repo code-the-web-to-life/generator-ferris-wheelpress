@@ -65,7 +65,7 @@ module.exports = function (grunt) {
                  patterns: [
                  {
                     match: 'saltkeys',
-                    replacement: 'salt/<%= grunt.file.read("keys.txt") %>'
+                    replacement: '<%= grunt.file.read("salt/keys.txt") %>'
                  }]
               },
               files: [
@@ -117,7 +117,7 @@ module.exports = function (grunt) {
         'clean:txt',
     ]);
 
-    // grunt.loadNpmTasks('grunt-wget');
+    grunt.loadNpmTasks('grunt-wget');
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.loadNpmTasks('grunt-replace');
