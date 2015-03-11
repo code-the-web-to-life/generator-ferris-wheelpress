@@ -1,6 +1,6 @@
 {
     "name": "generator-ferris-wheelpress",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "NOTE: WORK IN PROGRESS, use at you're own risk!!! A Yeoman generator for WordPress based on Marc Lloyd's generator-devpress that includes fresh WordPress install, randomized Salt Keys setup, automatic database setup, the download of plug-ins & more...",
     "keywords": [
         "yeoman-generator",
